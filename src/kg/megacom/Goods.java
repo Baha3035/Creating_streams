@@ -37,4 +37,13 @@ public class Goods {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "price=" + price +
+                ", maker=" + maker +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
